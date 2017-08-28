@@ -1,0 +1,39 @@
+{
+  "name": "meanstackapp",
+  "version": "1.0.0",
+  "description": "Angular module setup",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*",
+    "@angular/http": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/router": "*",
+    "@angular/upgrade": "*",
+    "angular-in-memory-web-api": "*",
+    "bootstrap": "*",
+    "core-js": "*",
+    "reflect-metadata": "*",
+    "rxjs": "*",
+    "systemjs": "*",
+    "zone.js": "*"
+  },
+  "devDependencies": {
+    "concurrently": "*",
+    "lite-server": "*",
+    "typescript": "*",
+    "typings": "*"
+  }
+}

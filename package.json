@@ -5,12 +5,13 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "angular": "^1.6.6",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
+    "ejs": "*",
     "express": "~4.15.2",
     "mongojs": "*",
-    "ejs": "*",
     "morgan": "~1.8.1",
     "nodemon": "*",
     "serve-favicon": "~2.4.2"

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Actor');
+
+body {
+  padding: 50px;
+  font: 14px "Actor", sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.task-list .row{
+  margin-top : 10px;
+}
